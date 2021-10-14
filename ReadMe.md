@@ -15,6 +15,14 @@ on a Raspberry Pi [SenseHAT](https://www.raspberrypi.org/products/sense-hat/)'s
 
 ![Glider](img/senseoflife.jpg)
 
+The gameOfLife.py script adds joystick functionality and cycles between 7 preset colors. (Right is towards the Ethernet port)
+
+* Middle: Resets display with new state
+* Up: Speeds up display
+* Down: Slows down display
+* Left: Pauses or unpauses
+* Right: Cycles through colors
+
 This code gratefully reuses the Game of Life algorithm published in
 [Pythonic Perambulations](https://jakevdp.github.io/blog/2013/08/07/conways-game-of-life/).
 
